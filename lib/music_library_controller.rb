@@ -87,8 +87,8 @@ class MusicLibraryController
   end
   
   def method_picker(input)
-    a = input.downcase
-    answer = case a
+    #a = input.downcase
+    #answer = case a
     when "list songs"
       list_songs
     when "list artists"
